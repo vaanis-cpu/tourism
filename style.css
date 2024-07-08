@@ -1,0 +1,39 @@
+#background-container {
+  background-image: url('image1.webp');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 56px);
+  width: 100%;
+  position: relative; /* Change to relative positioning */
+}
+
+#text-container {
+  position: absolute;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.image-text-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image-container{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.text-container {
+  max-width: 300px;
+  margin-left: 70rem;
+}
+
+.container-footer{
+  background: linear-gradient(to right, #d8431e, #2575fc);
+  background-size: 180% 180%;
+}
